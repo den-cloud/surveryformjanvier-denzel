@@ -8,50 +8,76 @@
     </head>
     <body>
         <!--heading-->
-        <h1 id="title">McDonald's Burgers </h1>
+        <h1 id="title"> Bayerische Motoren Werke AG </h1>
     
-        <p id="description">Fill in details to complete your McDonald's order</p>
+        <p id="description">Fill in details to complete your BMW order</p>
     
-        <form id="Survey-form">
+        <form id="survey-form">
             
             <label for="name" id="name-label"> Name </label>
-            <input id="name" type="text" name="name" placeholder="Bill Gates" required> </input>
+            <input id="name" type="text" name="name" placeholder="Rolls-Royce" required> </input>
             <br>
     
             <label for="email" id="email-label"> Email </label>
-            <input id="email" type="email" name="email" placeholder="Billgates@gmail.com" required> </input>
+            <input id="email" type="email" name="email" placeholder="Rolls-Royce@gmail.com" required> </input>
             <br>
     
             <label for="number" id="number-label"> Age </label>
             <input id="number" type="number" name="number" placeholder="18" min="18" max="100" required> </input>
             <br>
-    
-            <label for="dropdown" id="Burgers on menu"> Select Burger </label>
+             
+            <label for="dropdown" id="model"> Select model </label>
             <select id="dropdown">
-                <option value="quarter pounder"> Quarter Pounder </option>
-                <option value="double quarter pounder"> Double Quarter Pounder </option>
-                <option value="big mac"> Big Mac </option>
-                <option value=" quarter pounder with cheese deluxe"> Quarter Pounder with Cheese Deluxe </option>
-                <option value="hamburger"> Hamburger </option>
+                <option value="M_2"> M2 </option>
+                <option value="M_3"> M3 </option>
+                <option value="m_4"> M4 </option>
+                <option value="5_series m-power">5 Series M-Power </option>
+                <option value="3_series "> 3 Series </option>
             </select>
             <br>
-    
+
             <br>
-    
-            <label for="burger_type" id="burger_type"> <b> Burger type: </b> </label>
-            
-            <input id="burger_type" type="with cheese" id="type" name="burger" value="with cheese">
-            <label for="burger_type"> With Cheese </label>
-            
-    
-    
+
+            <label for="model_colour" id="model_colour"> <b> Model colour <b> </label>
+                <br>
+                <input id="model_colour" type="radio" id="black" name="colour" value="black">
+                <label for="model_colour"> Black </label>
+                <br>
+                <input id="model_colour" type="radio" id="white" name="colour" value="black">
+                <label for="model_colour"> White </label>
+                <br>
+                <input id="model_colour" type="radio" id="red" name="colour" value="black">
+                <label for="model_colour"> Red </label>
+                <br>
+                <br>
+                <label for="features"> <b> Add features <b> </label>
+                <br>
+                <input id="checkbox" type="checkbox" name="features" value="autopilot">
+                <label for="checkbox"> Full-self-driving (Autopilot) - R1.5millon </label>
+                <br>
+                <input id="checkbox" type="checkbox" name="features" value="competition pack">
+                <label for="checkbox"> Competiton pack (Avabile on M2 & M4)- R1.1millon </label>
+                <br>
+                <input id="checkbox" type="checkbox" name="features" value="dual-motor">
+                <label for="checkbox"> Dual Motor (All drive) - R1.0millon </label>
+                <br>
+                <br>
+
+                <label id="textarea"> Additional Comments </label>
+                <br>
+                <textarea id="textarea" name="instruction" rows="5" cols="40">
+
+                </textarea>
+                
+                <br>
+
+                <input id="submit" type="submit" value="Place Order">
         </form>
-    
-    
-    
-    
-    
-    
+
+
+
+
+
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
     </html>
