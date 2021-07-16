@@ -3,3 +3,20 @@ body{
     width: 500px;
     margin: auto;
 }
+
+form {
+    background: rgb(147, 5, 5, 0.2);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: red;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
